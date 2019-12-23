@@ -97,7 +97,7 @@ class HomeState extends State<Home>{
                               ],
                             ),
                          
-                            new Padding(padding: new EdgeInsets.all(15.9),),
+                            new Padding(padding: new EdgeInsets.all(16.9),),
        
                             //show text
                             new Text("$_finalResult",style: new TextStyle(color: Colors.white,fontSize: 19.4,fontWeight: FontWeight.w500),),
@@ -120,7 +120,7 @@ class HomeState extends State<Home>{
              return int.parse(weight)*multiplier;
            }else{
              print("Worng!");
-             return int.parse("180")*0.38; 
+             return int.parse("180")*0.39; 
            }
 
          }
